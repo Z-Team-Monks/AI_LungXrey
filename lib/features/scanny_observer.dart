@@ -1,0 +1,14 @@
+import 'package:bloc/bloc.dart';
+
+/// {@template counter_observer}
+/// [BlocObserver] for the counter application which
+/// observes all state changes.
+/// {@endtemplate}
+class ScannyObserver extends BlocObserver {
+  @override
+  void onChange(BlocBase bloc, Change change) {
+    super.onChange(bloc, change);
+    // ignore: avoid_print
+    print('${bloc.runtimeType} $change');
+  }
+}
