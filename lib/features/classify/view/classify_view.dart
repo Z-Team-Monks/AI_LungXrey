@@ -1,10 +1,11 @@
-// import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'package:scanny/screens/upload.dart';
 
-// class InitializationView extends StatelessWidget {
-//   const InitializationView({Key? key}) : super(key: key);
+class UploadView extends StatelessWidget {
+  const UploadView({Key? key}) : super(key: key);
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return;
-//   }
-// }
+  @override
+  Widget build(BuildContext context) {
+    return UploadImageScreen();
+  }
+}

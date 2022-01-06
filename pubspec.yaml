@@ -31,8 +31,10 @@ dependencies:
     sdk: flutter
   bloc: ^8.0.0
   flutter_bloc: ^8.0.0
-  equatable: ^2.0.0
-  connectivity_plus: ^2.0.2
+  equatable: ^2.0.0  
+  dotted_border: ^2.0.0+2
+  image_picker: ^0.8.4+4
+  #connectivity_plus: ^2.0.2
 
 
   # The following adds the Cupertino Icons font to your application.
